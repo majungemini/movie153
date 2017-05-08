@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--
+			The 20th Theatre WebSite
+			Author: Jun Ma
+			Date:050217
+			
+			FileName: contact.htm
+			Supporting files: 20tlogo.jpg,bg.jpg, main.css, contact.css,upcoming.htm，pastmovie.htm，index.htm，aboutus.htm
+		-->	
+		<meta charset="UTF-8" />
+		<meta name=viewport content="width=device-width, initial-scale=1">
+
+		<script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+
+		<title>Contact Us</title>
+		<link href="Assets/styles/main.css" rel="stylesheet" type="text/css" />
+		<link href="Assets/styles/contact.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<header>
+			<img src="Assets/images/20tlogo.jpg" alt="20 Theatre" />
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="index.htm">Home</a></li>
+				<li><a href="upcoming.htm">Upcoming Movies</a></li>
+				<li><a href="pastmovie.htm">Past Movies</a></li>
+				<li><a href="aboutus.htm">About Us</a></li>
+				<li><a href="contactus.htm">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<section id="main">
+			<h1>Contact Us</h1>
+			<p>We love to hear from our customers. Please let us know of any questions, comments, or product issues you may have. Below are ways you can reach us.</p>
+			<form id="interestform" name="interestform" action="#" method="post">
+            <fieldset id="contactFields">
+               
+               <label for="fName">First Name</label>
+               <input type="text" name="fName" id="fName" required="required" />
+
+               <label for="lName">Last Name</label>
+               <input type="text" name="lName" id="lName" required="required" />
+
+               <label for="phone">Phone</label>
+               <input name="phone" id="phone" type="tel" placeholder="(nnn)nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required="required" />
+
+               <label for="email">Email</label>
+               <input name="email" id="email" type="email" />
+			   
+			   <label for="comments">Comments</label>
+
+				<textarea type="text" name="comments" id="comments" required="required"></textarea>
+            </fieldset>                  
+            
+             
+		   <input type="checkbox" id="call" name="call" />
+		   <label for="call">Please send me monthly newsletter.</label>
+          
+         </form>
+		 <button id="submit">Submit</button>
+			<button id="reset">Reset</button>
+		</section>
+		<footer>
+			<address>
+				20 Theatre &#183;
+				11333 Big Bend Road &#183;
+				St. Louis, MO 63122-5720 &#183;
+				(314) 984 - 7500 &#183;
+				info@20theatre.com
+			</address>
+		</footer>
+		<script src="Assets/Javascripts/contact.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--
+			The 20th Theatre WebSite
+			Author: Jun Ma
+			Date:050217
+			
+			FileName: index.htm
+			Supporting files: 20tlogo.jpg, main.css, bg.jpg, vincent.mp3, vincent.swf, vincent.ogg, guardians.jpg, fate.jpg, sing.jpg, captain.jpg, logan.jpg, rogue.jpg, contact.htm, upcoming.htm，pastmovie.htm，aboutus.htm
+		-->	
+		<meta charset="UTF-8" />
+		<title>Index</title>
+		<link href="Assets/styles/main.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<header>
+			<img src="Assets/images/20tlogo.jpg" alt="20 Theatre" />
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="index.htm">Home</a></li>
+				<li><a href="upcoming.htm">Upcoming Movies</a></li>
+				<li><a href="pastmovie.htm">Past Movies</a></li>
+				<li><a href="aboutus.htm">About Us</a></li>
+				<li><a href="contactus.htm">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<section id="main">
+			<h1>Welcome to 20Th Theatre</h1>
+			<div></div>
+			<audio controls="controls">
+            <source src="Assets/Audios/vincent.mp3" type="audio/mpeg">
+            <source src="Assets/Audios/vincent.ogg" type="audio/ogg">
+			
+			<object type="aplication/x-shockwave-flash" width="350" height="21">
+				<param name="movie" value="Assets/Audios/vincent.swf" />
+				<embed src="Assets/Audios/vincent.swf" width="350" height="21" type="aplication/x-shockwave-flash" />
+			</object>			
+         </audio>
+			<h2>Our Time</h2>
+			<ul>
+				<li>Monday-Thursday -- 8 a.m.-11 p.m.</li>
+				<li>Friday -- 8 a.m.-12 p.m.</li>
+				<li>Saturday -- 10 a.m.-12 p.m. </li>
+				<li>Sunday -- 10 a.m.-10 p.m.</li>				
+			</ul>
+		<h2>Our Price</h2>
+			<table>
+				<colgroup>
+					<col class="firstCol" />
+					<col class="feeColumns" span="2" />
+				</colgroup>
+				<thead>
+					<tr>
+						<th>Date</th>
+						<th>Adult</th>
+						<th>Over 65, or less than 17</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Monday-Firday</td>
+						<td>$14.99</td>
+						<td>$8.99</td>
+					</tr>
+					<tr>
+						<td>Saturday-Sunday</td>
+						<td>$18.99</td>
+						<td>$9.99</td>
+					</tr>
+
+				</tbody>	
+			</table>
+		<h2>Current Movies</h2>
+			<div class="one">
+				<div class="half"><img src="Assets/Images/guardians.jpg" alt="Guardians" /></div>
+				<div class="half"><img src="Assets/Images/fate.jpg" alt="Fate" /></div>
+				<div class="half"><img src="Assets/Images/sing.jpg" alt="Sing" /></div>
+				<div class="half"><img src="Assets/Images/captain.jpg" alt="Captain" /></div>
+				<div class="half"><img src="Assets/Images/logan.jpg" alt="Logan" /></div>
+				<div class="half"><img src="Assets/Images/rogue.jpg" alt="Rogue" /></div>
+			</div>
+		
+		</section>
+		<footer>
+			<address>
+				20 Theatre &#183;
+				11333 Big Bend Road &#183;
+				St. Louis, MO 63122-5720 &#183;
+				(314) 984 - 7500 &#183;
+				info@20theatre.com
+			</address>
+		</footer>
+	</body>
+</html>

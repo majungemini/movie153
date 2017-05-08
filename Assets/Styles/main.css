@@ -1,0 +1,177 @@
+/*
+	The 20th Theatre WebSite
+	Author: Jun Ma
+	Date:050217
+	Filename: Main.css
+	
+	Supporting File: none
+	
+*/
+
+/* Display HTML5 structural elements as blocks */
+article, aside, figure, figcaption, footer, hgroup, header, section, nav {
+	display: block;
+}
+
+/* Set the default page element styles */
+body {
+	margin: 0px auto;
+	width: 800px;
+	background:  #4646b9;
+	background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+body * {
+	font-family: Verdana,Geneva, sans-serif;
+	font-size: 100%;
+	font-weight: inherit;
+	line-height: 1.2em;
+	margin: 0px;
+	padding: 0px;
+	text-decoration:none;
+	vertical-align: baseline;
+	
+}
+
+/* Navigation links */
+nav ul {
+	list-style:none;
+	margin-top:1px;
+	
+}
+nav li {
+	float:left;
+	width:19.7%;
+	text-align:center;
+	border:1px solid #bf80ff;
+	margin:2px 0px 15px 0px;
+	
+}
+
+nav li a {
+	display: block;
+	color:#ffffb3;
+	text-decoration: none;
+	background-color: #8080ff;
+}
+
+nav li a:hover{
+	color:rgb(68,76,169);
+	background-color: white;
+}
+
+/*  h1, h2, p */
+h1 {
+	font-size:20px;
+	font-weight: normal;
+	letter-spacing: 5px;
+	color:#ffff99 ;
+	margin-top: 15px;
+}
+
+h2{
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing:5px;
+	color:#ffff99;
+	margin-top:15px;
+}
+
+p{
+	margin:7px;
+	
+}
+
+#main{
+	border-top: 2px solid rgb(68,76,169);
+}
+#main ul{
+	list-style-type: circle;
+	margin-left: 50px;
+	font-size:12px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+#main ul li{
+	margin-bottom: 10px;
+	
+}
+#main ul li strong{
+	font-weight: normal;
+	color:rgb(68,76,169);
+}
+
+footer{
+	border-top:2px solid rgb(68,76,169);
+	clear: both;
+	float:left;
+	width:100%;
+}
+address{
+	font-style:normal;
+	font-size:10px;
+	text-align:center;
+	padding:5px;
+	
+}
+/* image styles */
+img {
+    width: 100%;
+    height: auto;
+	
+}
+.half{
+  display: inline-block;
+  width: 200px;
+  height: auto;
+  margin: 1em;
+  
+} 
+.rating{
+	max-width:100px;
+	
+}
+.upcoming{
+	max-width:100px;
+	border:1px solid black;
+}
+
+/* aside styles */
+aside{
+	display:block;
+	width:400px;
+	float:right;
+	background-color:gray;
+	border:1px solid black;
+	padding:10px;
+	margin:5px 0px 20px 20px;
+}
+aside img{
+	float:right;
+	margin:5px;
+}
+aside{
+	height:250px;
+	overflow:auto;
+}
+/* table styles */
+table{
+	font-size:14px;
+	border-collapse:collapse;
+	border:1px outset black;
+	margin:10px auto;
+	width:600px;
+}
+th,td{
+	border:1px solid black;
+	vertical-align:middle;
+	text-align:center;
+	padding:5px;
+}
+
+/* audio styles */
+audio, object, embed {
+   display: block;
+   margin: 15px auto;
+}
